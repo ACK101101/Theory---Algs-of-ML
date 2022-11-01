@@ -1,0 +1,21 @@
+D3:
+
+4)
+    1) F
+    2) T (Can use CV to optimize any parameter)
+    3) T (Entropy is maximized when data is uniform)
+    4) F **(Impurity =? error)
+    5) F
+    6) F
+    7) 1/2 T, 1/2 F -> 15/22 (TP / TP+FN)
+
+1) 
+    2) Bagging :-> Bootstrap aggregration
+        Bootstrap := resample of dataset (w/ replacement)
+
+2) 
+    1) T
+    2) F (don't bootstrap on freatures in tree bagging)
+    3) F 
+    4) Variance approaches fundamental limit of p*sigma^2. Random forests reduce p more than tree bagging
+    5) T
